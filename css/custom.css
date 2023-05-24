@@ -65,7 +65,7 @@ button {
 }
 
 .cta-yellow {
-    background: #d6e600;
+    background: #FED102;
     color: #000;
 }
 
@@ -108,7 +108,7 @@ button {
 }
 
 #price-table__premium {
-    background:  #FFDC00;
+    background:  #FED102;
     color: #000000;
 }
 
@@ -126,13 +126,13 @@ button {
 }
 
 #contact form {
-    color: #FFDC00;
+    color: #FED102;
 }
 
 #contact form input,
 #contact form textarea {
     background: transparent;
-    border: 1px solid  #FFDC00;
+    border: 1px solid  #FED102;
     color: #ffffff;
 }
 
