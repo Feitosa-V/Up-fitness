@@ -27,12 +27,15 @@
                         <!-- <img src="img/logo_up.png" alt="logo"> -->
                     </div>
                     <div class="col-6 align-self-center text-right">
-                        <a href="#" class="text-white lead">Home</a>
+                        <a href="#" class="text-white lead mr-2">Home</a>
+                        <a href="#price-table" class="text-white lead mr-2">Planos</a>
+                        <a href="#contact" class="text-white lead">Contato</a>
                     </div>
                 </div>
             </header>
             <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="display-3 text-white font-weight-bold my-5">
-            	UP <span style="color:#FED102">FITNESS</span> <br>
+            	<span style="font-size: 120px">UP</span><br>
+                <span style="color:#FED102">FITNESS</span> <br>
             </h1>
             <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="lead text-white my-4">
                 Transforme seu corpo, fortaleça sua mente.
@@ -67,8 +70,8 @@
         <div class="container my-5">
             <div class="row justify-content-between text-center text-md-left">
                 <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6">
-                    <h2 class="font-weight-bold">Benefícios do Treinamento com Pesos</h2>
-                    <p class="my-4">Descubra os benefícios do treinamento com pesos, incluindo aumento da força muscular, densidade óssea, aceleração do metabolismo, perda de peso, melhoria da postura e estabilidade, e redução do risco de lesões. Nossos instrutores especializados estão prontos para personalizar seu treinamento de acordo com seus objetivos individuais. Transforme sua jornada de condicionamento físico com o treinamento com pesos.</p>
+                    <h2 class="font-weight-bold">Quem somos</h2>
+                    <p class="my-4">Somos uma academia dedicada a ajudar as pessoas a alcançarem seus objetivos de saúde e fitness. Nossa equipe experiente de instrutores altamente qualificados oferece uma variedade de programas e aulas. Nossa academia é equipada com instalações modernas e equipamentos de última geração. Junte-se a nós hoje mesmo e comece a trilhar o caminho rumo a uma vida mais saudável e ativa</p>
                     <!-- <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-blue">Learn More</a> -->
                 </div>
                 <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center">
@@ -105,9 +108,6 @@
                 <p class="font-weight-bold">R$ <span class="display-2 font-weight-bold">130</span> , 00.</p>
                 <ul class="list-unstyled">
                     <li>No pix desconto de 10%</li>
-                    <!-- <li>Up to 3 Reviews</li>
-                    <li>5 team Members</li>
-                    <li>Limited Support</li> -->
                 </ul>
                 <!-- <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-ghost">Get Free</a> -->
             </div>
@@ -116,20 +116,13 @@
                 <p class="font-weight-bold">R$ <span class="display-2 font-weight-bold">600</span> , 00.</p>
                 <ul class="list-unstyled">
                     <li>Desconto de 20%</li>
-                    <!-- <li>Up to 10 Reviews</li>
-                    <li>25 team Members</li>
-                    <li>Limited Support</li> -->
                 </ul>
-                <!-- <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-green">Get Free</a> -->
             </div>
             <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5">
                 <h4 class="my-4">Anual</h4>
                 <p class="font-weight-bold">R$ <span class="display-2 font-weight-bold">1100</span> , 00.</p>
                 <ul class="list-unstyled">
                     <li>Desconto de 40%</li>
-                    <!-- <li>Unlimited Reviews</li>
-                    <li>Unlimited Members</li>
-                    <li>Unlimited Support</li> -->
                 </ul>
                 <!-- <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-ghost">Get Free</a> -->
             </div>
@@ -167,36 +160,36 @@
                 <div class="col-md-6 text-white">
                     <h2 class="font-weight-bold">Contato</h2>
                     <p class="my-4">
-                        Te iisque labitur eos, nec sale argumentum scribentur,
-                        <br> augue disputando in vim. Erat fugit sit at, ius lorem.
+                        Entre em contato e nos mande sua dúvida,
+                        <br>Ficamos a disposição para atender sua necessidade.
                     </p>
                     <ul class="list-unstyled">
                         <li>Email : upfitness@com</li>
                         <li>Phone : (35) 99999-8888</li>
-                        <li>Address : 4826 White Avenue, Corpus Christi, Texas</li>
+                        <li>Endereço : 4826 White Avenue, Corpus Christi, Texas</li>
                     </ul>
                 </div>
                 <div class="col-md-6 mb-5">
-                    <form>
+                    <form action="form.php" method="post">
                     	<div class="row">
 	                        <div class="form-group col-md-6">
 	                            <label for="name">Nome: </label>
-	                            <input type="name" class="form-control" id="name">
+	                            <input type="name" class="form-control" id="name" required minlength="3">
 	                        </div>
 	                        <div class="form-group col-md-6">
 	                            <label for="Email">Email: </label>
-	                            <input type="email" class="form-control" id="Email">
+	                            <input type="email" class="form-control" id="Email" required>
 	                        </div>
                             <div class="form-group col-md-6">
 	                            <label for="Telefone">Telefone: </label>
-	                            <input type="phone" class="form-control" id="Telefone">
+	                            <input type="phone" class="form-control" id="Telefone" required>
 	                        </div>
 	                    </div>
 	                    <div class="form-group">
 	                        <label for="message">Mensagem: </label>
 	                        <textarea class="form-control" id="message" rows="3"></textarea>
 	                    </div>
-                        <button type="submit" class="btn font-weight-bold atlas-cta atlas-cta-wide cta-yellow my-3">Cadastrar</button>
+                        <button type="submit" class="btn font-weight-bold atlas-cta atlas-cta-wide cta-yellow my-3" onclick="clicar()">Cadastrar</button>
                     </form>
 
                 </div>
@@ -204,11 +197,11 @@
                 <div class="col-md-12">
                     <div class="row">
                         <div class="col-md-6">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.85311159108!2d-45.01038872518581!3d-21.237672580464444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94caacb60ab50f85%3A0x49fd5ff26328798d!2sUp%20Fitness%20Academia!5e0!3m2!1spt-BR!2sbr!4v1684930503502!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.85311159108!2d-45.01038872518581!3d-21.237672580464444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94caacb60ab50f85%3A0x49fd5ff26328798d!2sUp%20Fitness%20Academia!5e0!3m2!1spt-BR!2sbr!4v1684930503502!5m2!1spt-BR!2sbr" width="540" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
 
                         <div class="col-md-6">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.85311159108!2d-45.01038872518581!3d-21.237672580464444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94caacb60ab50f85%3A0x49fd5ff26328798d!2sUp%20Fitness%20Academia!5e0!3m2!1spt-BR!2sbr!4v1684930503502!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.2557840675327!2d-44.99138252481691!3d-21.26134038044677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9ffdb096c40389%3A0xd102cf917effb18d!2sUp%20Fitness%20Zona%20Sul!5e0!3m2!1spt-BR!2sbr!4v1685018390951!5m2!1spt-BR!2sbr" width="540" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div> 
                 </div>
@@ -221,6 +214,7 @@
         <div class="container">
             <div class="row justify-content-between">
             	<div class="col-md-6 text-white align-self-center text-center text-md-left my-2">
+                    <!-- Copyright © <?= date('Y')?>. -->
                     Copyright © 2023.
                 </div>
                 <div class="col-md-6 align-self-center text-center text-md-right my-2" id="social-media">
@@ -243,6 +237,7 @@
     
     <!-- AOS -->
     <script src="js/aos.js"></script>
+    <script src="js/jquery_min.js"></script>
     <script>
       AOS.init({
       });
