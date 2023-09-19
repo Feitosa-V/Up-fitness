@@ -5,10 +5,8 @@ const routes = [
   {
     path: PATHS.HOME,
     name: 'Home',
-    component: () => 
-      import(
-      /* webpackChunkName: "home" */ '../views/home/Home.vue'
-      )    
+    component: () =>
+      import(/* webpackChunkName: "home" */ '../views/home/Home.vue'),
   },
   {
     name: 'NotFound',
